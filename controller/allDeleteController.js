@@ -5,7 +5,7 @@ let allDeleteController = async (req,res)=>{
 
     await Category.deleteMany({_id: {$in:ids}})
 
-    console.log(ids)
+    
 
 }
 
